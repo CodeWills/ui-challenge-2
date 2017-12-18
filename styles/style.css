@@ -46,3 +46,27 @@ section {
     margin-left: 202px;
     font-size: 14px;
 }
+
+/* this is for check box styles */
+
+input[type=checkbox] {
+    display:none;
+  }
+  
+  input[type=checkbox] {
+  display: inline-block;
+  background-image: url(checkbox.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 160px;
+  height: 160px;
+  margin-right: 25px;
+  zoom: .3;
+  }
+
+  #check-two {
+      background-image: url(checkboxclicked.png);
+  }
+  
+  /* this is for radio styles */
+  
