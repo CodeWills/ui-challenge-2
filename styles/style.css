@@ -46,9 +46,6 @@ section {
     margin-left: 202px;
     font-size: 14px;
 }
-
-/* this is for check box styles */
-
 input[type=checkbox] {
     display:none;
   }
@@ -67,6 +64,44 @@ input[type=checkbox] {
   #check-two {
       background-image: url(checkboxclicked.png);
   }
+  input[type=radio] {
+    display:none;
+  }
   
-  /* this is for radio styles */
-  
+  input[type=radio] {
+  display: inline-block;
+  background-image: url(radio.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 160px;
+  height: 160px;
+  margin-right: 25px;
+  zoom: .3;
+  }
+
+  #radio-two {
+      background-image: url(radioclicked.png);
+  }
+#button {
+    background-color:#939090;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+}
+
+#button-two {
+    background-color: #474747;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+footer{
+    margin-bottom: 5%;
+}
